@@ -1,2 +1,24 @@
-# movie-match-ai
-AI-powered web app that generates movie recommendations based on user input using Gemini API.
+# Movie Match AI
+
+## Problem
+People often struggle to decide what movie to watch based on their mood or preferences.
+
+## Solution
+This web application allows users to describe the kind of movie they want, and it generates recommendations instantly.
+
+## How it works
+The user types a request (for example: "funny movie" or "sad romantic film") and clicks a button.  
+The system then processes the input and returns a list of recommended movies with short explanations.
+
+## AI Component
+The application uses an AI model to understand the user's input and generate relevant movie recommendations.  
+The results are not pre-written — they are generated based on what the user asks.
+
+## Features
+- Generates 3 main movie recommendations
+- Provides short explanations for each movie
+- Suggests 2 extra optional movies
+- Handles vague input by asking for clearer details
+
+## Live Demo
+(Paste your Vercel link here)
