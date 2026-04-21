@@ -21,7 +21,7 @@ The results are not pre-written — they are generated based on what the user as
 - Handles vague input by asking for clearer details
 
 ## Live Demo
-(Paste your Vercel link here)
+(https://movie-match-ai-three.vercel.app/)
 
 ## Notes
 This project uses a free AI service, so there may sometimes be temporary limits if too many requests are made in a short time.
