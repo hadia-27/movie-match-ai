@@ -24,7 +24,5 @@ The results are not pre-written — they are generated based on what the user as
 (https://movie-match-ai-three.vercel.app/)
 
 ## Notes
-This project uses a free AI service, so there may sometimes be temporary limits if too many requests are made in a short time.
-
 This project uses a free Gemini API AI service. Because of this, there may be temporary limits on how many requests can be made in a short time.
 If the system does not respond, please wait a few seconds and try again.
