@@ -22,3 +22,8 @@ The results are not pre-written — they are generated based on what the user as
 
 ## Live Demo
 (Paste your Vercel link here)
+
+## Notes
+
+This project uses a free Gemini API AI service. Because of this, there may be temporary limits on how many requests can be made in a short time.
+If the system does not respond, please wait a few seconds and try again.
