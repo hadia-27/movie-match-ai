@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Movie Match AI
 
-## Getting Started
+## Problem
+People often struggle to decide what movie to watch based on their mood or preferences.
 
-First, run the development server:
+## Solution
+This website allows users to describe the kind of movie they want, and it generates recommendations instantly.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## How it works
+The user types a request (for example: "funny movie" or "sad romantic film") and clicks a button.  
+The system then processes the input and returns a list of recommended movies with short explanations.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## AI Component
+The application uses an AI model to understand the user's input and generate relevant movie recommendations.  
+The results are not pre-written — they are generated based on what the user asks.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
+- Generates 3 main movie recommendations
+- Provides short explanations for each movie
+- Suggests 2 extra optional movies
+- Handles vague input by asking for clearer details
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Live Demo
+(Paste your Vercel link here)
 
-## Learn More
+## Notes
+This project uses a free AI service, so there may sometimes be temporary limits if too many requests are made in a short time.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If the system does not respond, please wait a few seconds and try again.
